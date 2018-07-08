@@ -1,0 +1,13 @@
+1.登陆github官网注册一个账号和设置邮箱
+2.到https://www.git-scm.com/download/win上下载一个git
+3.新建一个文件夹，右键打开git bash here
+4.设置基本用户信息：
+设置用户名：git config --global user.name '用户名'
+设置用户名邮箱：git config --global email ''
+初始化git仓库：git init
+5.输入git clone https://github.com/kaiye1/test.git，拷贝仓库
+6.文件夹中会出现一个test
+7.把桌面上的文件拖进该文件夹，cd test进去
+8.输入git add 文件名称
+9.git commit -m '描述该文件'
+10.git push
