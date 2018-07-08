@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<title>生物科技网页</title>
+	<style>
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	body{
+		width: 100%;
+		min-width: 1300px;
+		height: 1000px;
+	}
+	.head{
+		width: 100%;
+		height:10%;
+		background-color: #000000;
+	}
+	.head div{
+		display: inline;
+		width: 20%;
+		height: 100%;
+		text-align: center;
+		float: left;
+		line-height: 102px;
+	}
+	.head img{
+		max-width: 80%;
+		height: 100%;
+	}
+	.head a{
+		text-decoration: none;
+		font-family: "楷体";
+		font-size: 25px;
+		color: #fff;
+	}
+	.body{
+		width: 100%;
+		min-width: 1300px;
+		height: 70%;
+		background:url("timg.gif");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
+	.foot{
+		width: 100%;
+		min-width: 1300px;
+		height:20%;
+		background-color: #000000;
+	}
+	.head-a{
+		background-color: #000000;
+		/*opacity: 0.5;*/
+	}
+	.body img{
+		width: 100%;
+		height: 50%;
+	}
+	.dlk-inside{
+		width: 400px;
+		height: 300px;
+		margin-top: 390px;
+		background-color: #000000;
+		float: right;
+		color: #fff;
+		text-align: center;
+		line-height: 100px;
+		font-size: 20px;
+		font-family: "楷体";
+	}
+	.dlk-inside1{
+		width: 150px;
+		height: 80px;
+		text-align: center;
+		border-radius: 60px;
+		background-color: #3c3939;
+		color: blue;
+		margin-top: 10px;
+		line-height: 80px;
+		display: inline-block;
+	}
+	.dlk-inside1 a{
+		color: #fff;
+		text-decoration: none;
+	}
+	.dlk-inside3{
+		width: 400px;
+		height: 300px;
+		display: inline-block;
+		margin-top: 390px;
+		/*position: absolute;
+		left: 0px;
+		bottom: 0px;*/
+		background-color: #000000;
+		color: #fff;
+		text-align: center;
+		line-height: 100px;
+		font-size: 20px;
+		font-family: "楷体";
+	}
+	.dlk-inside2{
+		width: 150px;
+		height: 80px;
+		text-align: center;
+		border-radius: 60px;
+		background-color: #3c3939;
+		color: #fff;
+		margin-top: 10px;
+		line-height: 80px;
+		display: inline-block;
+	}
+	.dlk-inside2 a{
+		color: #fff;
+		text-decoration: none;
+	}
+	.foot{
+		width: 100%;
+		height: 250px;
+	}
+	.foot_inside{
+		background-color:#000000;
+		min-width: 1220px;
+		height: 200px;
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+	.foot_inside1{
+		width: 130px;
+		height:100px;
+		float: left;
+		margin-left: 60px;
+		margin-top: 30px;
+	}
+	.foot_inside1 h3,a{
+		margin-top: 5px;
+		color: #fff;
+		text-decoration: none;
+		font-family: "楷体";
+	}
+	.foot_inside1 img{
+		float: left;
+	}
+	.foot_inside1_a{
+		margin-left: 30px;
+		text-decoration: none;
+	}
+
+
+	.foot_inside2{
+		width: 130px;
+		height:100px;
+		float: left;
+		margin-top: 30px;
+		margin-left: 70px;
+	}
+	.foot_inside2 h3,a{
+		color: #fff;
+		text-decoration: none;
+		margin-top: 5px;
+		font-family: "楷体";
+	}
+	.foot_inside2 img{
+		float: left;
+	}
+	.foot_inside2_a{
+		margin-left: 30px;
+		text-decoration: none;
+	}
+
+	.foot_inside3{
+		width: 130px;
+		height:100px;
+		float: left;
+		margin-left: 70px;
+		margin-top: 30px;
+	}
+	.foot_inside3 h3,a{
+		color: #fff;
+		text-decoration: none;
+		margin-top: 5px;
+		font-family: "楷体";
+	}
+	.foot_inside3 img{
+		float: left;
+	}
+	.foot_inside3_a{
+		margin-left: 30px;
+		text-decoration: none;
+	}
+
+	.foot_inside4{
+		width: 130px;
+		height:100px;
+		float: left;
+		margin-top: 30px;
+		margin-left: 70px;
+	}
+	.foot_inside4 h3,a{
+		color: #fff;
+		text-decoration: none;
+		margin-top: 5px;
+		font-family: "楷体";
+	}
+	.foot_inside4 img{
+		float: left;
+	}
+	.foot_inside4_a1{
+		margin-left: 30px;
+		text-decoration: none;
+	}
+	.foot_inside4_a2{
+		margin-left: 30px;
+		text-decoration: none;
+	}
+	.inside5{
+		width: 200px;
+		height: 160px;
+		display: inline-block;
+		margin-right: 30px;
+		float: right;
+		margin-top: 30px;
+	}
+	.foot_inside5 img{
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+	.foot_inside6{
+		width: 100%;
+		height: 60px;
+		background-color: #000000;
+		float: left;
+		line-height: 30px;
+	}
+	.foot_inside6{
+		color: #fff;
+		text-align: center;
+		width: 100%;
+		height: 60px;
+	}
+	</style>
+</head>
+<body>
+	<div class="head">
+		<div class="head-a"><a href="">首页</a></div>
+		<div class="head-a"><a href="">产品</a></div>
+		<div><img src="1234.jpg" alt=""></div>
+		<div class="head-a"><a href="#">关于团队</a></div>
+		<div class="head-a"><a href="#">联系我们</a></div>
+	</div>
+	<div class="body">
+		<div class="dlk">
+			<div class="dlk-inside">
+				<div>
+					<span>Hi!欢迎登陆旅途者网！</span><br />
+					<span>跨品台/多设备同步，轻松实现云服务</span>
+				</div>
+				<div class="dlk-inside1"><a href="#">登录</a ></div>
+				<div class="dlk-inside1"><a href="#">注册</a ></div>
+			</div>
+		</div>
+		<div class="dlk2">
+			<div class="dlk-inside3">
+				<div>
+					<span>上传您的数据</span><br />
+					<span>返回三维模型</span>
+				</div>
+				<div class="dlk-inside2"><a href="#">上传数据</a ></div>
+				<div class="dlk-inside2"><a href="#">重新上传</a ></div>
+			</div>
+		</div>
+	</div>
+	<div class="foot">
+			<div class="foot_inside">
+				<div class="foot_inside1">
+					<img src="8.jpg" alt="" width="30px" height="30px">
+					<h3>关于我们</h3>
+					<a href="#">关于旅途者</a><br />
+					<!-- <a href="#" class="foot_inside1_a">旧版华初</a> -->
+				</div>
+				<div class="foot_inside2">
+					<img src="7.jpg" alt="" width="30px" height="30px">
+					<h3>联系我们</h3>
+					<a href="#">联系我们</a>
+				</div>
+				<div class="foot_inside3">
+					<img src="6.jpg" alt="" width="30px" height="30px">
+					<h3>旗下平台</h3>
+					<a href="#">三好Go</a><br />
+					<a href="#" class="foot_inside3_a">网上三好街</a>
+				</div>
+				<div class="foot_inside4">
+					<img src="5.jpg" alt="" width="30px" height="30px">
+					<h3>了解旅途者</h3>
+					<a href="#">移动办公</a><br />
+					<a href="#" class="foot_inside4_a1">网站建设</a>
+					<a href="#" class="foot_inside4_a2">关于旅途者</a>
+				</div>
+				<div class="inside5">
+					<div class="foot_inside5">
+						<img src="9.jpg" alt="" width="120px" height="120px">
+						<h3 style="color:#fff;text-align:center">扫描二维码关注我们</h3>
+					</div>
+				</div>
+			</div>
+			<div class="foot_inside6">
+					<div><span>Copyright©1998-2015 huachu.com.cn,All Rights Reserved</span><br />
+					<span>ICP：辽B-2-4-20180630</span><div />
+			</div>
+		</div>
+	</div>
+</body>
+</html>
